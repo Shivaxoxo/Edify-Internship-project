@@ -9,9 +9,7 @@ This repository contains the implementation of a machine learning model designed
 - [Usage](#usage)
 - [Model Details](#model-details)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+  
 
 ## Overview
 The Cancer Cell Prediction project aims to accurately classify cells as cancerous or non-cancerous using machine learning techniques. This project is built using Python, leveraging popular libraries like scikit-learn and TensorFlow.
