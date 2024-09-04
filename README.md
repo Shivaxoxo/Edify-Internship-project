@@ -1,6 +1,6 @@
 # Edify-Internship-project
 
-Cancer Cell Prediction
+#Cancer Cell Prediction
 Overview
 This project aims to classify cancer cells as either benign or malignant using various machine learning models. The dataset used is "Cancer_Data.csv," which contains 570 observations of cancer cells with 30 features. The classification models implemented include Logistic Regression, Decision Tree, Random Forest, and Multi-layer Perceptron.
 
