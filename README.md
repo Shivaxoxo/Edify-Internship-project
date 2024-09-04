@@ -17,7 +17,7 @@ The Cancer Cell Prediction project aims to accurately classify cells as cancerou
 ## Dataset
 The dataset used for this project is publicly available and contains features extracted from cell images, such as radius, texture, perimeter, area, smoothness, and more. The target variable is a binary classification indicating whether a cell is cancerous or not.
 
-**Dataset Source:** [Link to dataset]()
+**Dataset Source:** [https://www.kaggle.com/datasets/erdemtaha/cancer-data]()
 
 ## Installation
 To run this project locally, follow these steps:
@@ -53,17 +53,19 @@ After installation, you can start using the model for prediction:
     ```
 
 ## Model Details
-The model used in this project is a [describe your model here, e.g., Random Forest Classifier, Convolutional Neural Network]. The choice of model was based on [brief reasoning for model selection].
+The notebook evaluates multiple models including Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), Decision Trees, and Random Forest. Each model is trained and tested on the Breast Cancer Wisconsin dataset.
+
+Model Details:
+Logistic Regression: Simple, interpretable, used as a baseline.
+KNN: Non-parametric, sensitive to feature scaling.
+SVM: Effective in high-dimensional spaces.
+Decision Trees: Easy to interpret but prone to overfitting.
+Random Forest: An ensemble method that mitigates overfitting.
+
 
 ## Results
-The model achieves an accuracy of XX% on the test dataset. Detailed performance metrics are available in the `results/` directory.
+Best Model: Random Forest achieved the highest accuracy (around 96%).
 
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-Thanks to Edify Internship for the opportunity to work on this project.
-[Mention any other acknowledgements or inspirations]
